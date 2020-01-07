@@ -1,7 +1,20 @@
-# TogoEx: the integration of gene expression data
-
-- Hidemasa Bono (corresponding author) https://orcid.org/0000-0003-4413-0651
-- Takeya Kasukawa https://orcid.org/0000-0001-5085-0802
+---
+title: TogoEx: the integration of gene expression data
+tags:
+  - gene expression
+authors:
+  - name: Hidemasa Bono
+    orcid: 0000-0003-4413-0651
+    affiliation: 1
+  - name: Takeya Kasukawa
+    orcid: 0000-0001-5085-0802
+    affiliation: 1
+affiliations:
+  - name: DBCLS, Japan
+    index: 1
+date: 07 January 2020
+bibliography: paper.bib
+---
 
 ## State the problem you worked on
 
@@ -10,7 +23,7 @@
 
 ## Give the state-of-the art/plan
 
-Gene expression data have been archived in public repositories, the NCBI Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/geo/) and the EBI ArrayExpress (AE; https://www.ebi.ac.uk/arrayexpress/). Unlike the International Nucleotide Sequence Database (https://www.insdc.org/), these two databases have not been exchanging data with each other. Furthermore, the DNA DataBank of Japan (DDBJ) in the National Institute of Genetics started a similar repository called the Genomic Expression Archive (GEA; https://www.ddbj.nig.ac.jp/gea/) in 2018. Hence there is a need for integration of these public gene expression databases. 
+Gene expression data have been archived in public repositories, the NCBI Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/geo/) and the EBI ArrayExpress (AE; https://www.ebi.ac.uk/arrayexpress/). Unlike the International Nucleotide Sequence Database (https://www.insdc.org/), these two databases have not been exchanging data with each other. Furthermore, the DNA DataBank of Japan (DDBJ) in the National Institute of Genetics started a similar repository called the Genomic Expression Archive (GEA; https://www.ddbj.nig.ac.jp/gea/) in 2018. Hence there is a need for integration of these public gene expression databases.
 Thus, we have maintained an index of these public gene expression databases, called All Of gene Expression (AOE； https://aoe.dbcls.jp/en) to integrate gene expression data and make them all searchable together.
 
 During the DBCLS/NDBC 2019 BioHackathon, we worked on the refinement of Reference Expression Dataset (RefEx; https://refex.dbcls.jp/?lang=en) for gene expression analysis in order to make gene expression data reusable. The gene expression data to integrate in the hackathon were mainly project-based, and those included those of FANTOM5, GTEx v8, fly and rice.
@@ -27,7 +40,7 @@ Thus, we tackled the FANTOM6 data in the ELIXIR BioHackathon-Europe 2019, and de
 
 ## Conclusion
 
-After a stimulus discussion in the ELIXIR BioHackathon-Europe 2019, we could successfully make a plan to reuse the CAGE data for lncRNA knockdown in FANTOM6 project. 
+After a stimulus discussion in the ELIXIR BioHackathon-Europe 2019, we could successfully make a plan to reuse the CAGE data for lncRNA knockdown in FANTOM6 project.
 While the Reference Expression dataset in DBCLS (RefEx) currently includes transcriptome data for normal tissues and cell lines, we discussed how to reuse transcriptome data for knockdown.
 This is only a starting point to reuse public knockdown data, but these 'reuse-ready' data can be useful for molecular biology in the near future.
 
