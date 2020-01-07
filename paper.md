@@ -1,5 +1,5 @@
 ---
-title: TogoEx: the integration of gene expression data
+title: "TogoEx: the integration of gene expression data"
 tags:
   - gene expression
 authors:
